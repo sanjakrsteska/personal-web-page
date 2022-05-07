@@ -1,0 +1,172 @@
+.content
+{
+
+    background:url("images/backgorund.jpg");
+   height:960px;
+    font-family: 'Lato', sans-serif;
+}
+.header
+{
+
+    background-image:linear-gradient(darkblue,blue);
+}
+.profilePhoto,.contact
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer
+{
+    clear: both;
+    display: flex;
+    background-image:linear-gradient(darkblue,blue);
+    justify-content: center;
+    align-items: center;
+
+
+color: white;
+}
+ul{
+    list-style-type: none;
+}
+li
+{
+    display:inline-block;
+    padding-right:40px;
+
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 6%;
+    color: white;
+
+
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+nav li a:after
+{
+    content: "";
+
+    background-color: orangered;
+    height: 2px;
+    width: 0;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav li a:hover::after
+{
+    width: 100%;
+}
+#profile
+{
+
+    height: 500px;
+
+}
+.heading1
+{
+ font-size: 80px;
+
+    color: white;
+    text-shadow: 2px 2px 4px #f6ecde;
+
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 30px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+.collage
+{
+display: grid;
+    grid-template-columns: auto auto auto;
+}
+.saint_gallen,.rajna,.bansko,.cirih,.pefkohori,.kopaonik
+{
+    height: 300px;
+    margin-top:25px;
+
+
+}
+.picture
+{
+    background: linear-gradient(#e66465, #9198e5);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.prof,.planini
+{
+    height: 220px;
+    float: right;
+    margin:20px;
+
+}
+.hemija
+{
+    height: 220px;
+    float: left;
+    margin:20px;
+}
+.biography,.achievments{
+    color: #f6ecde;
+  font-size: 30px;
+    text-indent: 50px;
+    text-align:justify;
+    margin: 50px;
+    font-family: "Arial", serif;
+}
+.nagradi,.hobi
+{
+    clear:both;
+}
+h3
+{
+    text-align: center;
+    color: #f6ecde;
+}
+.collage a:hover
+{
+    color: orangered;
+}
+iframe{
+    margin-bottom: 45px;
+}
